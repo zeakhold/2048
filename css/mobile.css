@@ -1,0 +1,26 @@
+.arrow-container {
+    text-align: center;
+    width: 360px;
+    height: 240px;
+    margin: 10px auto;
+}
+
+.arrow {
+    width: 96px;
+    height: 95px;
+    position: relative;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+
+.place-holder {
+    width: 96px;
+    height: 95px;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.arrow-up {
+    padding: 0 116px;
+}

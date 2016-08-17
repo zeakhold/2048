@@ -1,0 +1,130 @@
+/**** Common Style Start ****/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+/**** Common Style End ****/
+
+header {
+    text-align: center;
+    font-family: "Microsoft YaHei", sans-serif;
+    padding-top: 10px;
+}
+
+header h1 {
+    font-size: 55px;
+    color: lightseagreen;
+}
+
+.info {
+    font-size: 22px;
+}
+
+.info p {
+    display: inline-block;
+    margin-right: 150px;
+    width: 150px;
+    padding: 3px 0;
+    background-color: #ACF3AC;
+    border-radius: 10px;
+}
+
+.info a {
+    display: inline-block;
+    width: 150px;
+    padding: 3px 0;
+    background-color: #ACF3AC;
+    border-radius: 10px;
+    color: black;
+}
+
+.info a:hover {
+    background-color: lightgreen;
+    color: #05878b;
+}
+
+.grid-container {
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+    background-color: #bbada0;
+    border-radius: 10px;
+}
+
+.grid-cell {
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    background-color: #ccc0b3;
+    position: absolute;
+}
+
+.number-cell {
+    position: absolute;
+    border-radius: 6px;
+    font-family: "Microsoft YaHei", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.gameOver {
+    z-index: 2;
+    vertical-align: middle;
+    display: block;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gameOver .p-gameOver{
+    margin: 100px 0 30px;
+    font-family: serif;
+    font-size: 55px;
+    color: #5DD3E2;
+}
+
+.gameOver .p-score {
+    font-size: 40px;
+    color: lightgreen;
+    margin: 30px 0;
+    font-family: cursive;
+}
+
+.gameOver .restartNewGameButton {
+    background: lightgoldenrodyellow;
+    border-radius: 8px;
+    font-size: 30px;
+    padding: 7px;
+    margin: 20px 0 0;
+    display: inline-block;
+    font-family: cursive;
+    color: darkcyan;
+}
+
+.gameOver .restartNewGameButton:hover {
+    opacity: 0.8;
+}
+
+
+
